@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/depixel');
+
+body{
+    background: rgb(0,18,60);
+    background: linear-gradient(-45deg, rgba(0,18,60,1) 0%, rgba(55,0,55,1) 100%); 
+    color: #fff;
+    font-family: 'DePixel', sans-serif;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#idk{
+    animation: woo 5s normal;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+}
+#idk{
+    color: #ffffffaa;
+}
+#header{
+    height: 80px;
+    text-align: center;
+}
+#content{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#kafelek{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.10) 0%, rgba(150,150,150,0.10) 100%); 
+    border-radius: 40px;
+    padding: 40px;
+    backdrop-filter: blur(50px);
+    border: 3px solid #ffffff22;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: left;
+}
+a{
+    color: #ffffff55;
+}
+a:visited{
+    animation: woo 5s normal;
+}
+#footer{
+    position: fixed;
+    bottom: 10px;
+    text-align: left;
+    font-size: smaller;
+    color: #ffffff33;
+    width: 800px;
+}
+#footer a{
+    animation: none;
+    color: #ffffff33;
+    margin-left: auto;
+    float: right;
+}
+footer text{
+    float: left;
+}
+a{
+    animation: colorfultextwoo 5s alternate;
+    animation-iteration-count: infinite;
+}
+a:hover{
+    animation: colorfultextwoo 5s alternate;
+    animation-iteration-count: infinite;
+}
+a:visited{
+    animation: colorfultextwoo 5s alternate;
+    animation-iteration-count: infinite;
+}
