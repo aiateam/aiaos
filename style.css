@@ -25,14 +25,33 @@ body{
     height: 80px;
     text-align: center;
 }
+#nav{
+    margin-bottom: 50px;
+}
+#navbutton{
+    display: inline;
+    font-weight: lighter;
+    padding: 15px;
+    border-bottom: 3px solid #ffffff22;
+    margin: 0;
+}
+#navbuttonchsn{
+    display: inline;
+    font-weight: lighter;
+    padding: 15px;
+    border-top: 3px solid #ffffff22;
+    border-left: 3px solid #ffffff22;
+    border-right: 3px solid #ffffff22;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0;
+}
 #content{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-top: 10px;
 }
 #kafelek{
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,0.10) 0%, rgba(150,150,150,0.10) 100%); 
+    
     border-radius: 40px;
     padding: 40px;
     backdrop-filter: blur(50px);
@@ -51,25 +70,14 @@ a:visited{
 #footer{
     position: fixed;
     bottom: 10px;
-    text-align: left;
+    text-align: center;
     font-size: smaller;
     color: #ffffff33;
-    width: 776px;
+    width: 775px;
     padding: 10px;
     border-radius: 20px;
     backdrop-filter: blur(50px);
     border: 3px solid #ffffff22;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,0.10) 0%, rgba(150,150,150,0.10) 100%); 
-}
-#footer a{
-    animation: none;
-    color: #ffffff33;
-    margin-left: auto;
-    float: right;
-}
-footer text{
-    float: left;
 }
 a{
     animation: colorfultextwoo 5s alternate;
@@ -82,4 +90,7 @@ a:hover{
 a:visited{
     animation: colorfultextwoo 5s alternate;
     animation-iteration-count: infinite;
+}
+a{
+    text-decoration: none;
 }
