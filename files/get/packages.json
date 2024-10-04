@@ -1,2 +1,3 @@
 {
-  "fetch": fetch.py
+  "fetch": "fetch.py"
+}
