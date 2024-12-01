@@ -1,4 +1,4 @@
-def Main():
+def main():
     print("""     
         ##     #  ##        
         ##    ## ##     aiaOS by aiateam
