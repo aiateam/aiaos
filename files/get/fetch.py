@@ -1,4 +1,4 @@
-def fetch():
+def Main():
     print("""     
         ##     #  ##        
         ##    ## ##     aiaOS by aiateam
